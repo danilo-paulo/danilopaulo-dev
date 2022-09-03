@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #fff;
+}
+
+nav {
+  /*declaração da posição da barra de navegação*/
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  margin: auto;
+  background-color: rgb(200, 238, 238);
+  border-radius: 24px;
+}
+
+nav a {
+  /*tipo de fonte, tamanho e espaço entre os items da barra de navegação*/
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: black;
+  margin-right: 24px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+#about-mesection {
+  /* posicionamento do section */
+  width: 860px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-mesection div h1 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: px;
+
+  margin-bottom: 30px;
+}
+
+#about-mesection div h3 {
+  font-size: 50px;
+}
+
+#about-mesection div p {
+  width: 499px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#about-mesection div img {
+  /*propoções da imagem*/
+  width: 243px;
+  height: 246px;
+  border-radius: 20%;
+}
+
+#about-mesection div button {
+  /* tamanho e cores do div button*/
+  width: 200px;
+  height: 47px;
+  margin: 0 0 36px 0;
+  border-radius: 10px;
+  background-color: rgb(200, 238, 238);
+  color: rgb(0, 47, 255);
+  font-weight: bold;
+  border: none;
+  font-size: larger;
+}
+#about-mesection div button a {
+  text-decoration-line: none;
+}
+
+#myprojects-section { 
+  /*section dos meus projetos */
+  background: rgb(200, 238, 238);
+  padding: 24px 0;
+}
+#myprojects-section h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+
+#myprojects-section section {
+  width: 860px;
+  margin: auto;
+}
+#myprojects-section section a {
+  color: black;
+  text-decoration-line: none;
+}
+
+#myprojects-section section > div {
+  display: flex;
+  flex-wrap: wrap; /*comando do css para que as divs não ultrapassem os limites da section */
+  justify-content: space-between;
+}
+#myprojects-section section > div div {
+  background-color: #fff;
+  width: 49%;
+  margin: 0 0 20px 0;
+  padding-bottom: 16px;
+  border-radius: 8px;
+}
+#myprojects-section section > div div h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 14px 0 9px 23px;
+  display: flex;
+}
+#myprojects-section section > div div p {
+  font-size: 16px;
+  margin: 15px 15px 9px 23px;
+}
+#myprojects-section section > div div img {
+  width: 418px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+#experiencias-container { /* classe de css da section experiencias*/
+  width: 1080px;
+  margin: 25px auto;
+}
+
+#experiencias-container h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+#experiencia-item {
+  height: 130px;
+  width: 860px;
+  margin: 8px auto;
+  background: rgb(200, 238, 238);
+  border-radius: 9px;
+}
+#experiencia-item h3 {
+  font-size: 30px;
+  padding-left: 9px;
+  line-height: 70px;
+}
+#experiencia-item p {
+  padding-left: 9px;
+  line-height: 1px;
+}
+#experiencia-item p2 {
+  padding-left: 9px;
+  line-height: 1px;
+}
+.editaonome {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 30px;
+}
+#habilidades-section { /*classe css da section habilidades*/
+  background-color: rgb(200, 238, 238);
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+#habilidades-section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.editandofooter { /*classe para editar o footer e os elementos do mesmo*/
+  background-color: rgb(255, 255, 255);
+  height: 190;
+  margin-top: 80px;
+}
+.editandofooter h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  
+  padding-top: 10px;
+  justify-content: center;
+  
+}
+
+.editandofooter p {
+  line-height: 4px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+.editandofooter img {
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  
+}
